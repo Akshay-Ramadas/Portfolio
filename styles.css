@@ -3,6 +3,7 @@ body{
     background-color: black;
 }
 .navbar {
+    
     border-radius: 30px; /* Adjust the radius as needed */
     background-color: #171718; /* Example background color, adjust as needed */
     
@@ -167,6 +168,7 @@ background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 10%, rgba(0,0,0
     height: 800px;
     
 }
+
 .about-img{
     padding-left: 100px;
     padding-top: 20px;
@@ -293,3 +295,369 @@ background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 10%, rgba(0,0,0
         margin-bottom: 15px;
     }
 }
+#serviceSection{
+    height: 500px;
+}
+.serviceSection{
+    height: 100vh;
+    padding: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+/* 
+.card-container {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 8px 4px 8px rgba(68, 163, 115, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.8s, max-height 0.8s;
+    overflow: hidden;
+    background-color: #171718;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-clamp: 3; /* for browsers that support it */
+    /* box-orient: vertical; /* for browsers that support it */
+    /* transition: max-height 0.3s;
+    max-height: 4.5em;
+    text-align: justify;
+    color: #fff;
+} */
+/* 
+.card:hover .description {
+    -webkit-line-clamp: unset;
+    line-clamp: unset; /* for browsers that support it */
+    /* max-height: 100vh;
+}
+.serviceHead{
+    color: #12872d;
+} */ */
+/* 
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center; */ */ */
+    /* }
+
+    .card {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .card-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card {
+        width: 300px;
+    }
+} */
+
+
+#desktop-content {
+    display: none;
+}
+
+#mobile-message {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Media Queries */
+@media (min-width: 769px) {
+    #desktop-content {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #mobile-message {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 ;
+    margin-left: 50px;
+}
+
+.serviceHead {
+    font-size: 2em;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+    color: white;
+}
+
+.serviceHead span {
+    color: #f5a623;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.service-card {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service-card .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.service-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5a623;
+    color: #0a0a0a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e59423;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+}
+.serviceText{
+    color: #f0f0f0;
+}
+
+
+.forms{
+    width: 50%;
+}
+
+#contactSection{
+margin-top: 600px;
+padding-top: 100px;
+height: 800px;
+}
+.form-label{
+    color: white;
+}
+
+.form-control{
+    background-color: #141415;
+    border-color: #0d6221;
+    color: wheat;
+}
+.form-control::placeholder { /* Most modern browsers support this */
+    color: #fffdfd; /* Change this to the desired color */
+}
+.input-group-text{
+    background-color: #141415;
+    border-color: #0d5d1f;
+    color: white;
+}
+#submit-form{
+    padding-top: 40px;
+   
+
+}
+.form-select {
+    color: white;
+    background-color: #141415; /* Dark background color for contrast */
+    border-color: #0d5d1f;
+}
+.form-control:focus {
+    color: white;
+    background-color: #343a40; /* Keep background color consistent when focused */
+    border-color: #80bdff; /* Optional: change the border color when focused */
+    outline: 0; /* Optional: remove the default outline */
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Optional: add a custom shadow */
+}
+.pingme{
+   
+}
+.Ping{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.forms{
+    padding-top: 100px;
+}
+#eachfield{
+    padding-top: 30px;
+}
+.lets{
+    color: #12872d;
+}
+.Connect{
+    color: rgb(255, 255, 255);
+}
+.footer{
+    padding-top: 80px;
+    background-color: #141415;
+}
+.line{
+    
+    background-color: #12872d;
+    width: 100%;
+    height: 2px;
+}
+#footerlink{
+    padding-top: 9px;
+    text-decoration: none;
+    color: white;
+}
+#footerlink:hover{
+    color: #b1b0b0;
+}
+#quicklinks{
+    padding-left: 150px;
+}
+.QuickLinks{
+    padding-left: 135px;
+}
+#ConnectWithMe{
+    padding-left: 120px;
+}
+.line2{
+    padding-left: 350px;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.sociallink{
+    gap: 10px;
+}
+.socialicon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+/* .works{
+    padding-top: 550px;
+} */
+#projectSection{
+    padding-top: 550px;
+}
+/* 
+.card-slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cardsforslide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300px;
+    overflow: hidden;
+}
+
+.cardforslide {
+    min-width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.left-arrow {
+    left: -40px;
+}
+
+.right-arrow {
+    right: -40px;
+} */
