@@ -512,7 +512,7 @@ background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 10%, rgba(0,0,0
 }
 
 #contactSection{
-margin-top: 100px;
+
 padding-top: 100px;
 
 height: 800px;
@@ -621,7 +621,7 @@ height: 800px;
 } */
 #projectSection{
     margin-top:  650px;
-    height: 1400px;
+    height: 900px;
 }
 
 
@@ -651,6 +651,7 @@ height: 800px;
     box-shadow: 0 8px 20px -4px #e9e9ed;
     width: 100px;
     height: 100px;
+    object-fit: fill;
   }
   
   .slide-card h5 {
@@ -661,13 +662,14 @@ height: 800px;
   
   .slide-card h5 span {
     font-size: 18px;
-    color: #ffffff;
+    color: #818181;
   }
   
   .slide-card p {
-    font-size: 18px;
+    font-size: 12px;
     color: #ffffff;
     padding-bottom: 15px;
+    text-align: justify;
   }
   
   .swiper-slide {
@@ -694,17 +696,21 @@ div.swiper-button-next {
   margin-bottom: 500px;
   width: 60px;
   height: 44px;
-  
+  margin-top: 29px;
   z-index: 144;
   cursor: pointer;
   background-size: 27px 44px;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  
 }
 .swiper-button-prev, .swiper-rtl .swiper-button-next{
     left: var(--swiper-navigation-sides-offset, 45px);
     right: auto;
+}
+.position{
+    color: #404040;
 }
 
 
