@@ -224,40 +224,7 @@ if (statsSection) {
     observer.observe(statsSection);
 }
 
-// ===== CURSOR EFFECTS =====
-document.addEventListener('DOMContentLoaded', function() {
-    const cursor = document.createElement('div');
-    cursor.className = 'custom-cursor';
-    cursor.style.cssText = `
-        position: fixed;
-        width: 20px;
-        height: 20px;
-        background: var(--primary-color);
-        border-radius: 50%;
-        pointer-events: none;
-        z-index: 9999;
-        mix-blend-mode: difference;
-        transition: transform 0.1s ease;
-    `;
-    document.body.appendChild(cursor);
-    
-    document.addEventListener('mousemove', function(e) {
-        cursor.style.left = e.clientX - 10 + 'px';
-        cursor.style.top = e.clientY - 10 + 'px';
-    });
-    
-    // Cursor effects on hover
-    const hoverElements = document.querySelectorAll('a, button, .service-card, .project-card');
-    hoverElements.forEach(element => {
-        element.addEventListener('mouseenter', function() {
-            cursor.style.transform = 'scale(2)';
-        });
-        
-        element.addEventListener('mouseleave', function() {
-            cursor.style.transform = 'scale(1)';
-        });
-    });
-});
+
 
 // ===== SCROLL PROGRESS INDICATOR =====
 function createScrollProgress() {
