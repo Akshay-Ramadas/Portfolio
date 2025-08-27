@@ -3,686 +3,637 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshay-Ramadas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Akshay Ramadas - Full Stack Developer & AI Enthusiast</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
-        <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
-
-        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-    <div id="desktop-content">
-
-    
-    <header id="homesessionMain">
-        <nav class="navbar navbar-expand-lg " id="navbarId">
-            <div class="container-fluid">
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav mx-auto">
-                        
-                        <a class="nav-link" href="#AboutSection" id="home">About</a>
-                        <a class="nav-link" href="#skillsection" id="home">Skill</a>
-                        <a id="home" class="nav-link" href="#serviceSection">Services</a>
-                        <h4 class="nav-link" id="heading"> A   K   S   H   A   Y </h4>
-                        <a class="nav-link" href="#projectSection" id="home">Projects</a>
-                        <a class="nav-link" href="images/AKSHAY.pdf" download="Akshay-Ramadas.pdf" id="home">Resume</a>
-                        <a class="nav-link " href="#contactSection" id="home">Contact</a>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">AKSHAY</div>
                     </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AKSHAY</span>
+                <div class="logo-dot"></div>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
                 </div>
             </div>
         </nav>
-    </header>
-    <section id="homeSession">
-        <div class="container-fluid" id="mainsection">
-            <div class="details">
-                <p class="text-hello">Hello. I'm Akshay Ramadas</p>
-                    <p class="text-Iam">I'm a <p class="text-developer">Web Developer</p><br>
-                    <p class="text-Iam">And   An </p><p class="text-developer">  AI  </p> <p class="text-Iam">  Enthusiast  </p></p>
-                    <div data-aos="fade-up-right sm-10">
-                        <p  class="text-promo">Dedicated and driven computer science enthusiast with a profound
-                        passion for coding and logical reasoning. Specializing in Node.Js
-                        development, I am enthusiastic about harnessing this technology to craft
-                        efficient and scalable solutions for real-world challenges. Eager to
-                        continue learning and growing in the dynamic field of software
-                        development, I bring a strong work ethic and a commitment to
-                        excellence. Whether working independently or collaboratively in a team, I
-                        am poised to apply my skills to enhance business performance.
-                        Resourceful and results-driven, my goal is to contribute to company
-                        objectives, adapt quickly to diverse processes, and increase service value
-                        with a keen focus on growth and efficiency.</p></div>
-                        <a href="images/AKSHAY.pdf" class="download-button" download="Akshay-Ramadas.pdf">Get my Resume</a>
-            </div>
-            
-   
-    
-            <div class="image sm-4">
-                <span class="dot"></span>
-                <img  src="images/main.png" width="500px" height="500px" class="photo">
-                <div class="overlay">
 
-                </div>
-            </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="hero-particles"></div>
         </div>
-        <div class="swipesection">
-            <p class="text-swipe">Swipe Down</p>
-            <div class="swipe-img">
-               <img src="./images/direction.png" height="25px" width="25px">
-            </div>
-        </div>
-
-    </section>
-    <section id="AboutSection">
-        <div class="container-fluid">
-            <div class="about-first sm-6">
-                <div class="about-img">
-                    <p class="time-text">Time<br> To <br>Know <br> Me </p>
-                    <img src="./images/3d-cartoon-portrait-person-practicing-law-related-profession.png" height="450px" width="300px">
-                
-                </div>
-                <div class="about-first-text">
-                    <p >Time<br> To <br>Know <br> Me </p>
-
-                </div>
-            </div>
-            <div class="about-second sm-6">
-               <p class="about-text" data-aos="fade-up-right">Welcome to my professional space! I'm a passionate computer science enthusiast specializing in Node.js development. With a deep love for coding and logical reasoning, I am dedicated to crafting efficient and scalable solutions for real-world problems. My career is driven by a commitment to continuous learning and adapting in the ever-changing landscape of software development. Whether working solo or as part of a dynamic team, I bring a strong work ethic and a focus on excellence to every project. My goal is to contribute meaningfully to company objectives, enhance business performance, and drive value through innovative solutions. Let's embark on this technological journey together!</p>
-            </div>
-        </div>
-        
-
-    </section>
-    <section id="skillsection">
-
-        <div class="container-fluid">
-            <div class="myskills">
-                <p class="myskilltext"> My Skills</p>
-            </div>
-            <div class="skills-container">
-
-                <div class="skill-card" data-aos="fade-up-right">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-nodejs-11796942-9632853.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">Node JS</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 95%;"></div>
-                        </div>
-                        <div class="percentage">95%</div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up">
+                    <div class="hero-greeting">
+                        <span class="greeting-text">Hello, I'm</span>
+                        <div class="greeting-line"></div>
                     </div>
-                </div>
-
-
-                <div class="skill-card" data-aos="fade-up-right">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-11217744-9200748.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">Express JS</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 95%;"></div>
-                        </div>
-                        <div class="percentage">95%</div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="skill-card" data-aos="fade-up-left">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-3-1175138.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">Mongo DB</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
-                        </div>
-                        <div class="percentage">95%</div>
-                    </div>
-                </div>
-                <div class="skill-card" data-aos="fade-up-left">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/react-js-5363133-4488922.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">React JS</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 70%;"></div>
-                        </div>
-                        <div class="percentage">70%</div>
-                    </div>
-                </div>
-
-
-
-                <div class="skill-card" data-aos="fade-up-right">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-html-3628838-3030115.png?f=webp&w=512" alt="HTML Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">HTML</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 99%;"></div>
-                        </div>
-                        <div class="percentage">99%</div>
-                    </div>
-                </div>
-                <div class="skill-card"data-aos="fade-up-right" >
-                    <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-css3-4387639-3640300.png" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">CSS</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
-                        </div>
-                        <div class="percentage">90%</div>
-                    </div>
-                </div>
-                <div class="skill-card" data-aos="fade-up-left">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-javascript-3521515-2945018.png?f=webp&w=512" alt="JavaScript Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">JavaScript</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
-                        </div>
-                        <div class="percentage">90%</div>
-                    </div>
-                </div>
-
-
-
-                <div class="skill-card" data-aos="fade-up-left">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAzFBMVEX///84Jxb/LQD/MgD/AAD/NgD/7Oj/GQD/q53/JQAAAAD/qZk2JRP/XEX/WET/X0j/8u4hAAAuGQAnDgD/hnL/e2b/+fceAAAqEwAxHggPAAAsFgD/5+L/4t3/3dT/UTPb2dfIxsT/ycL/1M7/vrP/dGH9jYP/SiX/clX/uLW/urfSz809LSMYAACdl5MkCABXS0KuqqlMPjiOhoDp6OZhWVZ/d3L/NhL/oZH/XDz/mYr/Tzz/Z1X/VCv/lX//PR7/hHz/dWxyaWYwIBnk4dHoAAAFfElEQVR4nO2ZeXuqOhCHMQEhmspWURAVxeXWfUOtxy6n/f7f6U5AW+2R2qvt+eM+8z71MWaZ/DKZDNFKEoIgCIIgCIIgCIIgCIIgCIIgCJKCAy/fOayp/uyE4Uo3znRpsq4UquqBqlu5+KOiNMbOLXtN1GyeyLX3mgK9/1lRhHxNlHog6ubnRfl+04/LTjOUsqF4h79msl21pqO9i/KhRyxKd1qt3baHIfQ2JCc0pJawEzaz14tSdJnJRZCwUVW1/kteS1tZZ6rKmhDQdZWxB2Unym/LTCVQfaOsVoypmiQCDnq25a3TkfW6unJa8FF9vF4UYfBqSS01Kd06BYUyptC64ehEgaq9qAdCZJXSGohSiEoUNZR8qlCVUOXGKFKoe6o9gREqX+krjdBt+EhIx6grRGvqNBGlNbuKXG0RqjfXq0RUVVNpXsrWyT2Iop1sntKtVCS0CMMVXYjatqQmJY/NdvtqT7GaZKxIxyfkFgIiFiXiWGNqdUMIRNItjUX5z5TePm7qypOhgxdFZBWcJ1qAkkJBFFEgovwVu9G+Iabg9Bld1qkydgdGu0IU+UeS7kDUM1Eg1vK7QP8N+yjLKnty9Pj0FcmvrEJ/Q+meCFEPIvKrRSqz/HeJ8ikp7j21F7UmLHzzVPWZEq1aDbUmbF8XvFGnBemB/oISjT31IDzkG/6GyuE3iXLalN1qinIoKqTKSoN9SUTBSeiutXv5ScSUflek7FHKq/TmTqfKXpQmk3VHUVvfJEoKGYXTB8qMvahQKjI4fVSIYpDRdQankrAiZHRRoMyQsgV4I5QUjDYT3msx8ZFdGVUtdZWVHF3eQMrZEmW9adectgyJpqkSaOh0ib5W6o5f1yGpanXwCWSnfHfTUZS2eBRkf6+U9t32TmqtOrE9cFv7yt2DZCxM+3H+dnw/vhIYoQjZWvxcyfoGxAnUxQne8P04j4Mn/N29wREFUcwmnw3/+EKBIAiCIAiCIMj3EPSWk4ppzpbT/vGduz99mZmmO1n2gr8sqfcyMMsu59ytmFY0PWiIXLPi8gx3y2Ym6v1NSRMP5n3D9aIgaQiiwwbuDmc/IiuYzkeN46rF3HYzx1ivcZ/gtfKhwbWXi+PR/dFoGlwlqR/lzPLYm/UPZQ7GmT/gNrik8fpRLGBXjgbPcubYzE0aH2f6Og3bShyReV/ulJ+YWbhk4VROt7jvIedMElda44u3dTEQs/CKlfHebIxy/NTMMHf0Yp1u4bn5fnQ/l7HiXvw1uFDUXOwT58slH+4Xu7RPTxx7JLXJXu6G94buywsXyyov02Y9w1CMroCeaW63rqWZOvGnmC/J+CA3Amuxr3KXaQpywlEDKDUS/ztRup/OUJ4kGXYJceAMxGK9/idTp9Mb7kUl4xeT8qWahKrY2Y44djMhqnRZqE/FXnF3v6L+ICWQY3jMJx2swd5QEPcbjy4XlXF3Sxz9kTHf9Li2Nyy7rsutkme7acrc8chJHB4bsi8TFW8fGHudNxqjWTktFYwH0agfLMQvY4tFfx4NxinqeXk2ajTmg6TZnJ5XcII40GNjpVLKRLzsTT4+NILpxEtZgTsulexdkxecmvM8489iJJ5jNj9pOpjP0tz1tpzhZZqS5JkuyZtNF2lDF9OZ96ks+9LkuZilu8qyzl2WepGVflx5JrhQlNRLedBxy4sa53/jbUSelWIgd1mYx0xPPfj5ePDxkpTGYjk4FZjuhflgR38wPEo8nFeG41HwdQPBaDy0jrIqd0vjK65TMb2Il+LbOHctu+RO5v/ZIHzDcEu2JRYHV/qSG12xdXucYLqcZMxSeRDNe8EX9+2YRdCDpGp7XgW+/AT4DwcEQRAEQRAEQRAEQRAEQRAEQRAE+T/zL5ryg/AofZZJAAAAAElFTkSuQmCC" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">HandleBars JS</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
-                        </div>
-                        <div class="percentage">90%</div>
-                    </div>
-                </div>
-
-
-
-                <div class="skill-card" data-aos="fade-up-right" >
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/generative-ai-10377380-8574751.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">AI</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
-                        </div>
-                        <div class="percentage">50%</div>
-                    </div>
-                </div>
-
-
-                <div class="skill-card" data-aos="fade-up-left">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/structures-8946460-7362866.png?f=webp&w=512" alt="CSS Logo" class="skill-logo">
-                    <div class="skill-info">
-                        <div class="skill-name">DSA</div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 50%;"></div>
-                        </div>
-                        <div class="percentage">50%</div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-    </section>
-
-
-
-    <section id="serviceSection">
-        <div class="container-fluid">
-           <div class="serviceSection">
-            <!-- <div class="card-container">
-                <div class="card">
-                    <h2 class="serviceHead">Full Stack Web development</h2>
-                    <p class="description">I develop full stack web applications using the MERN stack, which includes MongoDB,
-                         Express.js, React, and Node.js. MongoDB offers flexible and scalable data storage, while Express.js 
-                         simplifies the creation of robust APIs and server-side logic. React enables the development of dynamic 
-                         and interactive user interfaces with reusable components. Node.js provides a powerful runtime environment 
-                         for building scalable network applications. By leveraging these technologies, I create modern, high-performance web
-                          applications that ensure efficient data management, seamless user experiences, and robust server functionality, 
-                          tailored to meet specific business requirements.
-
+                    <h1 class="hero-title">
+                        <span class="title-main">Akshay Ramadas</span>
+                        <span class="title-sub">Full Stack Developer</span>
+                        <span class="title-ai">AI Enthusiast</span>
+                    </h1>
+                    <p class="hero-description">
+                        Crafting digital experiences with cutting-edge technology. 
+                        Specializing in Node.js, React, and AI integration to build 
+                        scalable solutions that drive innovation.
                     </p>
+                    <div class="hero-actions">
+                        <a href="images/AKSHAY.pdf" download class="btn btn-primary">
+                            <span>Download Resume</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Talk</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+            </div>
+                <div class="hero-visual" data-aos="fade-left">
+                    <div class="hero-image-container">
+                        <div class="image-glow"></div>
+                        <img src="images/main.png" alt="Akshay Ramadas" class="hero-image">
+                        <div class="floating-elements">
+                            <div class="float-element" data-tech="Node.js"></div>
+                            <div class="float-element" data-tech="React"></div>
+                            <div class="float-element" data-tech="AI"></div>
                 </div>
-                <div class="card">
-                    <h2 class="serviceHead">Web Designing</h2>
-                    <p class="description">I design websites using modern web technologies to create visually appealing, user-friendly,
-                         and responsive interfaces. By utilizing HTML, CSS, and JavaScript, I ensure that each website is both functional 
-                         and aesthetically pleasing. My expertise includes creating intuitive navigation, optimizing user experience, 
-                         and ensuring cross-browser compatibility. Additionally, I incorporate design principles and trends to produce 
-                         engaging and effective web layouts. By combining creativity with technical skills, I deliver high-quality web 
-                         designs that meet the specific needs and goals of each project, ensuring a seamless and enjoyable user experience 
-                         across all devices.</p>
+            </div>
+        </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer with a vision for the future</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-card">
+                        <h3>Who I Am</h3>
+                        <p>
+                            Welcome to my professional space! I'm a passionate computer science enthusiast specializing in Node.js development. 
+                            With a deep love for coding and logical reasoning, I am dedicated to crafting efficient and scalable solutions 
+                            for real-world problems. My career is driven by continuous learning and adapting in the ever-changing landscape 
+                            of software development. Whether working solo or as part of a dynamic team, I bring a strong work ethic and 
+                            focus on excellence to every project. Let's embark on this technological journey together!
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">3</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">20+</span>
+                                <span class="stat-label">Projects Completed</span>
                 </div>
-                <div class="card">
-                    <h2 class="serviceHead">Graphic designing</h2>
-                    <p class="description">I specialize in graphic design, creating visually compelling and impactful designs using modern
-                         tools and techniques. Utilizing software such as Adobe Photoshop, Illustrator, and InDesign, I craft designs 
-                         that effectively communicate messages and capture the intended audience's attention. My expertise 
-                         includes branding, logo design, print media, and digital graphics. I focus on aesthetics, typography,
-                          color theory, and layout principles to produce engaging and cohesive designs. By combining creativity with 
-                          a keen eye for detail, I deliver high-quality graphic designs that align with the specific goals and visions 
-                          of each project, ensuring a strong visual presence and effective communication.</p>
-                </div> -->
+                            <div class="stat">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+            </div>
+        </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-image-container">
+                        <img src="images/3d-cartoon-portrait-person-practicing-law-related-profession.png" alt="About Me" class="about-image">
+                        <div class="about-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies I master</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Node.js" data-level="95">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-nodejs-11796942-9632853.png" alt="Node.js">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                                <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="Express.js" data-level="95">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/express-js-11217744-9200748.png" alt="Express.js">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">Express.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                                <span class="skill-percentage">95%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="MongoDB" data-level="90">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-3-1175138.png" alt="MongoDB">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="React.js" data-level="85">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/react-js-5363133-4488922.png" alt="React.js">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                                <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="HTML5" data-level="99">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-html-3628838-3030115.png" alt="HTML5">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 99%"></div>
+                        </div>
+                                <span class="skill-percentage">99%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="CSS3" data-level="90">
+                            <div class="skill-icon">
+                                <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-css3-4387639-3640300.png" alt="CSS3">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                                <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="JavaScript" data-level="90">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-javascript-3521515-2945018.png" alt="JavaScript">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="container">
-                    <h2 class="serviceHead">Expert Solutions for Every Challenge,<br>I Craft <span>Where Expertise Meets Excellence</span></h2>
-                    <div class="service-cards">
-                        <div class="service-card">
-                            <div class="icon" ><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/web-layout-1995293-1686579.png?f=webp&w=512" height="40px" width="40px"></div>
-                            <h3 class="serviceText">Full Stack development</h3>
-                            <p class="serviceText">I provide full stack development services using Node.js, React.js, MongoDB, and Express.js. By leveraging these technologies, I develop reliable and scalable software solutions tailored to meet diverse needs.</p>
-                            <a href="#contactSection" class="button">Start a Project</a>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Emerging Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="AI/ML" data-level="70">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/generative-ai-10377380-8574751.png" alt="AI/ML">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">AI/ML</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
                         </div>
-                        <div class="service-card">
-                            <div class="icon"><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/website-8544521-7003050.png?f=webp&w=512" height="40px" width="40px"></div>
-                            <h3 class="serviceText">UI/UX</h3>
-                            <p class="serviceText">We craft pixel-perfect designs with Figma, designing experiences that captivate and convert. No clunky layouts, just smooth flows that guide your visitors.</p>
-                            <a href="#contactSection" class="button">Start a Project</a>
+                                <span class="skill-percentage">70%</span>
+                    </div>
+                </div>
+                        <div class="skill-item" data-skill="DSA" data-level="75">
+                            <div class="skill-icon">
+                                <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/structures-8946460-7362866.png" alt="DSA">
+                            </div>
+                    <div class="skill-info">
+                                <span class="skill-name">DSA</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                                <span class="skill-percentage">75%</span>
+                            </div>
                         </div>
-                        <div class="service-card">
-                            <div class="icon"><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/web-development-7996523-6675862.png?f=webp&w=512" height="40px" width="40px"></div>
-                            <h3 class="serviceText">Web development</h3>
-                            <p class="serviceText">I provide web design and development services using Node.js, React.js, MongoDB, and Express.js. By leveraging these technologies, I create reliable and scalable software solutions tailored to meet diverse needs.</p>
-                            <a href="#contactSection" class="button">Start a Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Services I Offer</h2>
+                <p class="section-subtitle">Comprehensive solutions for your digital needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>End-to-end web application development using modern technologies like Node.js, React, and MongoDB.</p>
+                    <div class="service-features">
+                        <span>RESTful APIs</span>
+                        <span>Database Design</span>
+                        <span>UI/UX Integration</span>
+                    </div>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and visually appealing user interfaces that enhance user experience and engagement.</p>
+                    <div class="service-features">
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                        <span>User Testing</span>
+                    </div>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Responsive and modern web applications that work seamlessly across all devices and platforms.</p>
+                    <div class="service-features">
+                        <span>Responsive Design</span>
+                        <span>Performance Optimization</span>
+                        <span>SEO Friendly</span>
+                </div>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>Integrating artificial intelligence and machine learning capabilities into your applications.</p>
+                    <div class="service-features">
+                        <span>Chatbots</span>
+                        <span>Data Analysis</span>
+                        <span>Automation</span>
                         </div>
-                        <div class="service-card">
-                            <div class="icon"><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/graphic-design-8101388-6463398.png?f=webp&w=512" height="40px" width="40px"></div>
-                            <h3 class="serviceText">Graphic Design</h3>
-                            <p class="serviceText">I provide graphic design services using advanced tools such as Photoshop, Lightroom, Canva, and other photo editors. My expertise ensures high-quality and visually appealing designs tailored to your needs.</p>
-                            <a href="#contactSection" class="button">Start a Project</a>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="service-card">
-                            <div class="icon"><img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/project-planning-1484194-1259214.png?f=webp&w=512" height="40px" width="40px"></div>
-                            <h3 class="serviceText">Technical consultation</h3>
-                            <p class="serviceText"> As a computer science graduate, I offer a wide range of technical consultation services for both companies and individuals. My expertise spans various domains, ensuring tailored and effective solutions for diverse technical needs.</p>
-                            <a href="#contactSection" class="button">Start a Project</a>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                        </div>
+                    <h3>Technical Consultation</h3>
+                    <p>Expert guidance on technology choices, architecture decisions, and development strategies.</p>
+                    <div class="service-features">
+                        <span>Architecture Review</span>
+                        <span>Technology Stack</span>
+                        <span>Best Practices</span>
+                        </div>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
                         </div>
                         
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
                     </div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Ongoing maintenance, updates, and technical support to keep your applications running smoothly.</p>
+                    <div class="service-features">
+                        <span>Bug Fixes</span>
+                        <span>Updates</span>
+                        <span>24/7 Support</span>
+                    </div>
+                    <a href="#contact" class="service-link">Get Started <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section id="projectSection">
-        <div class="works  d-flex justify-content-center">
-            <p class="Ping"> <span class="lets">Featured </span> <span class="Connect">Works</span> </p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my best work</p>
         </div>
-       
-        
-        <div class="swiper">
+            <div class="swiper projects-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="slide-card text-center">
-                  <img class="slide-card-img-top" src="https://plus.unsplash.com/premium_photo-1661443463341-64fbb508343a?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-                  <div class="slide-card-body">
-                    <h5>
-                      Student Management System <br />
-                      <span> Backend Engineer </span>
-                    </h5>
-                    <p class="slide-card-text">
-                      “I developed a comprehensive Student Management System using Node.js, React, MongoDB, and Tailwind CSS. This system revolutionizes the college experience by efficiently managing gate post entries, monitoring attendance, securely storing student data, and facilitating assignment submissions. It enhances administrative efficiency and improves the academic experience for students and faculty.
-                      ”
-                    </p>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://plus.unsplash.com/premium_photo-1661443463341-64fbb508343a?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Student Management System">
+                                <div class="project-overlay">
+                                    <div class="project-tech">
+                                        <span>Node.js</span>
+                                        <span>React</span>
+                                        <span>MongoDB</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Student Management System</h3>
+                                <p class="project-role">Backend Engineer</p>
+                                <p class="project-description">
+                                    A comprehensive system revolutionizing college experience with efficient gate post management, 
+                                    attendance monitoring, secure data storage, and assignment submission capabilities.
+                                </p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
                   </div>
                 </div>
               </div>
       
               <div class="swiper-slide">
-                <div class="slide-card text-center">
-                  <img class="slide-card-img-top" src="https://plus.unsplash.com/premium_photo-1677422968835-94192b375180?dpr=2&w=306&auto=format&fit=crop&q=60&crop=entropy&cs=tinysrgb&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHNob3BwaW5nfGVufDB8MHx8fDE3MTk5NTUxMTh8MQ&ixlib=rb-4.0.3" alt="" />
-                  <div class="slide-card-body">
-                    <h5>
-                      Shopy <br />
-                      <span> Software Engineer </span>
-                    </h5>
-                    <p class="slide-card-text">
-                      “I developed an online shopping website with distinct administrative and user modules. This platform enables users to purchase products from multiple vendors seamlessly. It offers a standardized, user-friendly interface that simplifies the shopping experience, ensuring efficient and secure transactions for both vendors and customers. ”
-                    </p>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://plus.unsplash.com/premium_photo-1677422968835-94192b375180?dpr=2&w=306&auto=format&fit=crop&q=60&crop=entropy&cs=tinysrgb&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHNob3BwaW5nfGVufDB8MHx8fDE3MTk5NTUxMTh8MQ&ixlib=rb-4.0.3" alt="Shopy">
+                                <div class="project-overlay">
+                                    <div class="project-tech">
+                                        <span>E-commerce</span>
+                                        <span>Multi-vendor</span>
+                                        <span>Payment Gateway</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Shopy - E-commerce Platform</h3>
+                                <p class="project-role">Software Engineer</p>
+                                <p class="project-description">
+                                    A comprehensive online shopping platform with distinct administrative and user modules, 
+                                    enabling seamless multi-vendor transactions with standardized user experience.
+                                </p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
                   </div>
                 </div>
               </div>
       
               <div class="swiper-slide">
-                <div class="slide-card text-center">
-                  <img class="slide-card-img-top" src="https://media.istockphoto.com/id/2015350131/photo/2024-election.webp?b=1&s=170667a&w=0&k=20&c=xXbiDivghMGn605fNpdfr-l0bvoHbrHd8c4s6hUoGn0=" alt="" />
-                  <div class="slide-card-body">
-                    <h5>
-                      Kerala - OPS <br />
-                      <span> Backend Engineer </span>
-                    </h5>
-                    <p class="slide-card-text">
-                      “K-OPS stands for Kerala Operations , Its a user-friendly platform for the Kerala Public Service sector, designed to facilitate interaction between common citizens and various government services. This platform streamlines access to essential services, making it easier for citizens to obtain information, submit applications, and track the status of their requests, thereby enhancing the efficiency and transparency of public service delivery.”
-                    </p>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://media.istockphoto.com/id/2015350131/photo/2024-election.webp?b=1&s=170667a&w=0&k=20&c=xXbiDivghMGn605fNpdfr-l0bvoHbrHd8c4s6hUoGn0=" alt="Kerala OPS">
+                                <div class="project-overlay">
+                                    <div class="project-tech">
+                                        <span>Government</span>
+                                        <span>Public Service</span>
+                                        <span>Digital Platform</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Kerala OPS</h3>
+                                <p class="project-role">Backend Engineer</p>
+                                <p class="project-description">
+                                    A user-friendly platform for Kerala Public Service sector, facilitating interaction between 
+                                    citizens and government services with streamlined access and transparency.
+                                </p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
                   </div>
                 </div>
               </div>
       
               <div class="swiper-slide">
-                <div class="slide-card text-center">
-                  <img class="slide-card-img-top" src="https://media.istockphoto.com/id/1029035836/photo/ai-robot-thinking.webp?b=1&s=170667a&w=0&k=20&c=zL7wxsJ0hLnZcXq7bFzRzE4Aj433JDQdwhqbi5fIPsE=" alt="" />
-                  <div class="slide-card-body">
-                    <h5>
-                      HI BOT <br />
-                      <span> Software Engineer </span>
-                    </h5>
-                    <p class="slide-card-text">
-                      “I developed a simple web application that allows users to easily access a personal assistant, integrating Gemini AI with Node.js and React.js. This application provides a seamless user experience, enabling efficient interaction and assistance through advanced AI capabilities. ”
-                    </p>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://media.istockphoto.com/id/1029035836/photo/ai-robot-thinking.webp?b=1&s=170667a&w=0&k=20&c=zL7wxsJ0hLnZcXq7bFzRzE4Aj433JDQdwhqbi5fIPsE=" alt="HI BOT">
+                                <div class="project-overlay">
+                                    <div class="project-tech">
+                                        <span>AI Integration</span>
+                                        <span>Gemini AI</span>
+                                        <span>Personal Assistant</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>HI BOT - AI Assistant</h3>
+                                <p class="project-role">Software Engineer</p>
+                                <p class="project-description">
+                                    A web application integrating Gemini AI with Node.js and React.js, providing seamless 
+                                    personal assistant capabilities with advanced AI interaction.
+                                </p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                                </div>
                   </div>
                 </div>
               </div>
             </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-
-
+            </div>
         </div>
-
-
-
-
     </section>
 
-
-
-
-
-    <section id="contactSection">
-        <div class="pingme  d-flex justify-content-center">
-                <p class="Ping"> <span class="lets">Let's </span> <span class="Connect">Connect..</span> </p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life?</p>
             </div>
-            <div class="social-media-icons">
-                <a  href="https://www.linkedin.com/in/akshay-ramadas-1617801b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="sociallink">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/linkedin-2752135-2284952.png?f=webp&w=512" alt="Facebook" class="socialicon " >
-                </a>
-                <a href="https://www.instagram.com/ak_shay_ramadas?igsh=MTFuMHJvdGgydXl0ag==" target="_blank" class="sociallink">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-216-721958.png?f=webp&w=512" alt="Twitter" class="socialicon ">
-                </a>
-                <a href="https://github.com/Akshay-Ramadas" target="_blank" class="sociallink">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-github-159-721954.png?f=webp&w=512" alt="Instagram" class="socialicon ">
-                </a>
-                <a href="https://www.facebook.com/akshayramadas.et?mibextid=ZbWKwL" target="_blank" class="sociallink">
-                    <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/facebook-2752192-2285009.png?f=webp&w=512" alt="LinkedIn" class="socialicon ">
-                </a>
-                <a href="https://x.com/RamadasSha?s=09" target="_blank" class="sociallink">
-                    <img src="https://cdn.iconscout.com/icon/free/png-512/free-twitter-9420782-7651212.png?f=webp&w=512" alt="LinkedIn" class="socialicon ">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>akshayramadas.et@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 7994694887</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Kerala, India</span>
+                            </div>
+            </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/akshay-ramadas-1617801b2" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Akshay-Ramadas" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ak_shay_ramadas" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://x.com/RamadasSha" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
                 </a>
             </div>
-        <div class="container-fluid d-flex justify-content-center">
-            
-            <div class="forms">
-
-            
-            <form class="row g-3 needs-validation" novalidate action="https://formspree.io/f/mzzpbeaj" method="POST">
-                <div class="col-md-4 position-relative">
-                  <label for="validationTooltip01" class="form-label">First name</label>
-                  <input type="text" class="form-control" id="validationTooltip01" placeholder="Mark" required name="First-name">
-                  <div class="valid-tooltip">
-                    Looks good!
                   </div>
                 </div>
-                <div class="col-md-4 position-relative" >
-                  <label for="validationTooltip02" class="form-label">Last name</label>
-                  <input type="text" class="form-control" id="validationTooltip02" placeholder="Heil"  name="Last-name">
-                  <div class="valid-tooltip">
-                    Looks good!
-                  </div>
-                 
-                </div> <br>
-                <div class="col-md-4 position-relative">
-                  <label for="validationTooltipUsername" class="form-label">Mail Id</label>
-                  <div class="input-group has-validation">
-                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                    <input type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required name="email">
-                    <div class="invalid-tooltip">
-                      Please choose a unique and valid username.
-                    </div>
-                  </div>
+                <div class="contact-form" data-aos="fade-left">
+                                                              <form action="https://formspree.io/f/myzdyqno" method="POST" class="form">
+                         <div class="form-group">
+                             <label>
+                                 Your Name:
+                                 <input type="text" name="name" placeholder="Your Name" required>
+                             </label>
+                         </div>
+                         <div class="form-group">
+                             <label>
+                                 Your Email:
+                                 <input type="email" name="email" placeholder="Your Email" required>
+                             </label>
+                         </div>
+                         <div class="form-group">
+                             <label>
+                                 Subject:
+                                 <input type="text" name="subject" placeholder="Subject" required>
+                             </label>
+                         </div>
+                         <div class="form-group">
+                             <label>
+                                 Your Message:
+                                 <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                             </label>
+                         </div>
+                         <button type="submit" class="btn btn-primary">
+                             <span>Send Message</span>
+                             <i class="fas fa-paper-plane"></i>
+                         </button>
+                     </form>
                 </div>
-                <div class="col-md-6 position-relative" id="eachfield">
-                  <label for="validationTooltip03" class="form-label">City</label>
-                  <input type="text" class="form-control" id="validationTooltip03" required name="city">
-                  <div class="invalid-tooltip">
-                    Please provide a valid city.
-                  </div>
-                </div>
-                <div class="col-md-3 position-relative" id="eachfield">
-                  <label for="validationTooltip04" class="form-label">State</label>
-                  <select class="form-select" id="validationTooltip04" required>
-                    <option placeholder="Choose"  value="">Choose...</option>
-                    <option value="outside-india">Out side India</option>
-                    <option value="andhra_pradesh">Andhra Pradesh</option>
-                    <option value="arunachal_pradesh">Arunachal Pradesh</option>
-                    <option value="assam">Assam</option>
-                    <option value="bihar">Bihar</option>
-                    <option value="chhattisgarh">Chhattisgarh</option>
-                    <option value="goa">Goa</option>
-                    <option value="gujarat">Gujarat</option>
-                    <option value="haryana">Haryana</option>
-                    <option value="himachal_pradesh">Himachal Pradesh</option>
-                    <option value="jharkhand">Jharkhand</option>
-                    <option value="karnataka">Karnataka</option>
-                    <option value="kerala">Kerala</option>
-                    <option value="madhya_pradesh">Madhya Pradesh</option>
-                    <option value="maharashtra">Maharashtra</option>
-                    <option value="manipur">Manipur</option>
-                    <option value="meghalaya">Meghalaya</option>
-                    <option value="mizoram">Mizoram</option>
-                    <option value="nagaland">Nagaland</option>
-                    <option value="odisha">Odisha</option>
-                    <option value="punjab">Punjab</option>
-                    <option value="rajasthan">Rajasthan</option>
-                    <option value="sikkim">Sikkim</option>
-                    <option value="tamil_nadu">Tamil Nadu</option>
-                    <option value="telangana">Telangana</option>
-                    <option value="tripura">Tripura</option>
-                    <option value="uttar_pradesh">Uttar Pradesh</option>
-                    <option value="uttarakhand">Uttarakhand</option>
-                    <option value="west_bengal">West Bengal</option>
-                    <option value="andaman_nicobar">Andaman and Nicobar Islands</option>
-                    <option value="chandigarh">Chandigarh</option>
-                    <option value="dadra_nagar_haveli">Dadra and Nagar Haveli</option>
-                    <option value="daman_diu">Daman and Diu</option>
-                    <option value="delhi">Delhi</option>
-                    <option value="lakshadweep">Lakshadweep</option>
-                    <option value="puducherry">Puducherry</option>
-                    <option value="ladakh">Ladakh</option>
-                    <option value="jammu_kashmir">Jammu and Kashmir</option>
-                  </select>
-                  <div class="invalid-tooltip">
-                    Please select a valid state.
-                  </div>
-                </div>
-                <div class="col-md-3 position-relative" id="eachfield">
-                  <label for="validationTooltip05" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="validationTooltip05" required name="zip">
-                  <div class="invalid-tooltip">
-                    Please provide a valid zip.
-                  </div>
-                </div>
-                <div class="col-md-12 position-relative" id="eachfield">
-                    <label for="validationTooltip03" class="form-label">Content</label>
-                    <input type="text" class="form-control" id="validationTooltip03"  name="content">
-                    
-                  </div>
-                <div class="col-12 d-flex justify-content-center" id="submit-form">
-                  <button class="btn btn-outline-success" type="submit">Ping Me</button>
-                </div>
-             </form>
             </div> 
         </div>
     </section>
 
-
-<div class="line"></div>
-
-    <footer class="footer  text-white" >
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h5>Contact Information</h5>
-              <p><i class="fa fa fa-address-card"></i> Address: 123 Street Name, City, Country</p>
-              <p><i class="fa fa-phone"></i> Phone: +123 456 7890</p>
-              <p><i class="fa fa-envelope"></i> Email: info@example.com</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span>AKSHAY</span>
+                        <div class="footer-dot"></div>
+                    </div>
+                    <p>Full Stack Developer & AI Enthusiast</p>
             </div>
-            <div class="col-md-4" >
-              <h5 class="QuickLinks">Quick Links</h5>
-              <ul class="list-unstyled" style="list-style-type:disc"id="quicklinks">
-                <li><a href="#" id="footerlink">Home</a></li>
-                <li><a href="#AboutSection" id="footerlink">About</a></li>
-                <li><a href="#serviceSection" id="footerlink">Services</a></li>
-                <li><a href="#skillsection" id="footerlink">Skills</a></li>
-                <li><a href="#contactSection" id="footerlink">Contact</a></li>
-                <li><a href="#projectSection" id="footerlink">Projects</a></li>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
               </ul>
             </div>
-            <div class="col-md-4" id="ConnectWithMe">
-              <h5>Connect With Me</h5>
-              <ul class="list-unstyled">
-                <li><a href="https://www.facebook.com/akshayramadas.et?mibextid=ZbWKwL" id="footerlink"><i class="fa fa-facebook"></i> Facebook</a></li>
-                <li><a href="https://x.com/RamadasSha?s=09" id="footerlink"><i class="fa fa-twitter"></i>  Twitter</a></li>
-                <li><a href="https://www.instagram.com/ak_shay_ramadas?igsh=MTFuMHJvdGgydXl0ag==" id="footerlink"><i class="fa fa-instagram"></i>  Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/akshay-ramadas-1617801b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" id="footerlink"><i class="fa fa-linkedin"></i>  LinkedIn</a></li>
-                <li><a href="https://github.com/Akshay-Ramadas" id="footerlink"><i class="fa fa-github"></i>  GitHub</a></li>
-                
-
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">AI Integration</a></li>
+                        <li><a href="#services">Consultation</a></li>
               </ul>
             </div>
-          </div>
-          <hr class="line2">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>&copy; 2024 Akshay-Ramadas. All rights reserved.</p>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/akshay-ramadas-1617801b2" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Akshay-Ramadas" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ak_shay_ramadas" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/RamadasSha" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
             </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Akshay Ramadas. All rights reserved.</p>
           </div>
         </div>
       </footer>
       
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper(".swiper", {
-          // Navigation arrows
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-          },
-          // Default parameters
-          slidesPerView: 2,
-          loop: true,
-          centeredSlides: true,
-          spaceBetween: 10,
-          // Responsive breakpoints
-          breakpoints: {
-            // when window width is >= 320px
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 20
-            },
-            // when window width is >= 480px
-            480: {
-              slidesPerView: 2,
-              spaceBetween: 30
-            },
-            // when window width is >= 640px
-            640: {
-              slidesPerView: 3,
-              spaceBetween: 40
-            }
-          }
-        });
-      </script>
-
-
- 
-
-
-    <script>
-        (function() {
-    'use strict';
-
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation');
-
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function(form) {
-        form.addEventListener('submit', function(event) {
-          if (!form.checkValidity()) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-
-          // Custom validation for zip code based on state selection
-          var stateSelect = form.querySelector('#validationTooltip04');
-          var zipInput = form.querySelector('#validationTooltip05');
-
-          if (stateSelect.value === 'outside-india') {
-            zipInput.removeAttribute('required');
-          } else {
-            zipInput.setAttribute('required', '');
-          }
-
-          form.classList.add('was-validated');
-        }, false);
-      });
-  })();
-        
-      </script>
-    <script>
-        AOS.init(
-            {
-                duration:1200
-            }
-        );
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-    <!-- //jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
-
-</div>
-<div id="mobile-message">
-    <h1 style="color: rgb(0, 0, 0);">Mobile Access Restricted</h1>
-        <p style="color: rgb(0, 0, 0);">Sorry, this page is only accessible on desktop devices.</p>
-</div>
-<script>
-    window.addEventListener('resize', checkScreenSize);
-document.addEventListener('DOMContentLoaded', checkScreenSize);
-
-function checkScreenSize() {
-    if (window.innerWidth >= 769) {
-        document.getElementById('desktop-content').style.display = 'block';
-        document.getElementById('mobile-message').style.display = 'none';
-    } else {
-        document.getElementById('desktop-content').style.display = 'none';
-        document.getElementById('mobile-message').style.display = 'flex';
-    }
-}
-
-</script>
 </body>
 </html>
